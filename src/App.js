@@ -1,11 +1,9 @@
 import React, { Suspense } from 'react'
-import Todos from '@/components/Todos'
-import Filters from '@/components/Filters'
+import Mouse from '@/components/MouseHoc'
 
 const App = () => (
   <Suspense fallback={ <div>loading...</div>}>
-    <Todos />
-    <Filters />
+    <Mouse />
   </Suspense>
 )
 

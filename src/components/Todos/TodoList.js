@@ -3,23 +3,10 @@ import PropTypes from 'prop-types'
 import TodoItem from './TodoItem'
 import { connect } from 'react-redux'
 import { toggleTodo, removeTodo } from '@/store/todo/actions'
-import { filterTypes } from '@/constants'
-
-const filterTodos = (todos, filter) => {
-  switch (filter) {
-    case filterTypes.ALL:
-      return todos
-    case filterTypes.COMPLETED:
-      return todos.filter(item => item.completed)
-    case filterTypes.UNCOMPLETED:
-      return todos.filter(item => !item.completed)
-    default:
-      throw new Error('unexpected filter')
-  }
-}
+import filterTodos from './selector'
 
 @connect(state => ({
-  todos: filterTodos(state.todos, state.filter)
+  todos: filterTodos(state)
 }), {
   toggleTodo,
   removeTodo
