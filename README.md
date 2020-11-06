@@ -23,4 +23,17 @@ compel v. 强迫，觉得有必要做
 amass v. 积累，积聚
 fortune n. 财富，运气
 
-
+trip sb. up （使）犯错，（使）失误
+terse a. （声明或评论）简短的，短促的，无力的
+detect v. 侦测 发现 查出 测出 察觉 发觉
+steam v. steam from 起源于... 由...造成 阻止 遏制 制止 n. (植物的)根 茎 （词法中的）词干
+denote v. 预示 表示 是...的征兆 是...的标志 意思是 指代
+detection n. 觉察 发现 发觉 查出 侦查 侦破
+eliminate v. 消除 根除 淘汰 消灭 干掉
+implement v. 履行 实施 器具 工具用具 implementation n.
+thereby ad. 因此 从而
+vendor n. 小贩 摊贩 （房地产的）卖主 卖方
+compilation n. 汇编物 辑
+inception n. 开始 开端 初期
+encapuslation n. 包装 封装 概述 概括
+verify v. 证实 证明 查实
